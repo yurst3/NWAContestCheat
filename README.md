@@ -18,30 +18,34 @@ Instructions for Megan:
 
 Go to the “Launchpad”, search for “Terminal” and open it. Then copy and paste the following commands into the console, pressing “enter” after each one. 
 
-1. `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”`This will download and install the “Homebrew” package manager. You’ll probably never use this again, it’s just so you can install “git” and “node” in the next steps.
+1. ```/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)”```
 
-2. `brew install git`
+This will download and install the “Homebrew” package manager. You’ll probably never use this again, it’s just so you can install “git” and “node” in the next steps.
+
+2. ```brew install git```
 
 This will download and install “git” (along with a bunch of other dependencies), a tool that you’ll need to download and run my code
 
-3. `brew install node`
+3. ```brew install node```
 
 This will download and install “node” (along with a bunch of other dependencies), which you will need to run the code
 
-4. `cd ~/Desktop`
+4. ```cd ~/Desktop```
 
 This changes the working directory to your Desktop, so when you download the code it will be located in a folder on your Desktop
 
-5. `git clone https://github.com/yurst3/NWAContestCheat.git`
+5. ```git clone https://github.com/yurst3/NWAContestCheat.git```
 
 This will download the code I wrote from my GitHub repository. It will be in a folder called NWAContestCheat
 
-5. `cd NWAContestCheat`
+5. ```cd NWAContestCheat```
 
 This changes the working directory to the NWAContestCheat folder, so you can run the code
 
-6. `npm install`
+6. ```npm install```
 
 This will download all of the required dependencies to run the code
 
-7. `npm run stuff-ballots 50`This will run the script to cast 50 ballots for Blake. You can change the “50” to whatever number you’d like and it will cast that many ballots. The terminal will show a progress bar to let you know how many ballots are left
+7. ```npm run stuff-ballots 50```
+
+This will run the script to cast 50 ballots for Blake. You can change the “50” to whatever number you’d like and it will cast that many ballots. The terminal will show a progress bar to let you know how many ballots are left
