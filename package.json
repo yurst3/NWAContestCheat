@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.ts",
   "scripts": {
-    "send-ballots": "node ./index.js"
+    "stuff-ballots": "node ./index.js"
   },
   "type": "module",
   "keywords": [],
