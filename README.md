@@ -1,3 +1,5 @@
+## NWAContestCheat
+
 This repo has a script to help boost the number of ballots cast for Blake Hansen and Simplified Health in the "Best of Northwest Arkansas" contest.
 
 To use the script run `npm run stuff-ballots X` where X is the number of ballots to cast for Blake and Simplified Health.
@@ -12,9 +14,7 @@ const browser = await chromium.launch({
 });
 ```
 
-===
-
-Instructions for Megan:
+# Instructions for Megan
 
 Go to the “Launchpad”, search for “Terminal” and open it. Then copy and paste the following commands into the console, pressing “enter” after each one. 
 
